@@ -1,9 +1,6 @@
 # Django REST Swagger
 
-[![build-status-badge]][build-status]
-[![pypi-version]][pypi]
-[![license-badge]][license]
-[![docs-badge]][docs]
+Compatibility library of version 0.3.10 for use with Django 1.10 and 1.11. Instead of using this fork, I recommend you upgrade your Django and django-rest-framework versions.
 
 ####An API documentation generator for Swagger UI and Django REST Framework
 
@@ -42,7 +39,7 @@ for more information, see the [documentation][docs].
 
 ## Requirements
 * Python (2.7, 3.3, 3.4, 3.5)
-* Django (1.8+)
+* Django (1.8+, <2.0)
 * Django REST framework (3.8+)
 * PyYAML (3.10+)
 
